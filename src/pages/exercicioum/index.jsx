@@ -21,7 +21,6 @@ export default function Index(){
 
     function inverterArray(){
         numeros.reverse();
-        console.log(numeros)
     }
 
     return(
@@ -43,7 +42,7 @@ export default function Index(){
 
                     <div>
                         {numeros.map(item => 
-                         <div/>
+                         <div>{item}</div>
                         )}
                     </div>
 
